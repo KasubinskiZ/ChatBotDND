@@ -1,0 +1,85 @@
+body {
+  filter: brightness(50%);
+  background-color: black;
+}
+
+.wrapper {
+  position: relative;
+  background-image: url('../Resources/index_table.jpg');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:100vh;
+}
+
+#scroll {
+  background-image: url('../Resources/index_scroll.png');
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#beer {
+  position: absolute;
+  background-image: url('../Resources/index_beer.png');
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 372px;
+  height: 377px;
+  background-size: 100% 100%;
+}
+
+#candle_left {
+  top: 10%;
+  right: 10%;
+  width: 115px;
+  height: 150px;
+  z-index: 3;
+}
+
+#candle_middle {
+  top: 0%;
+  right: 5%;
+  width: 200px;
+  height: 200px;
+}
+
+#candle_right {
+  top: 10%;
+  right: 3.5%;
+  width: 125px;
+  height: 150px;
+  z-index: 2;
+}
+
+.candle {
+  position: absolute;
+  background-image: url('../Resources/index_candle.gif');
+  background-repeat: no-repeat;
+  top: 0%;
+  right: 0%;
+  background-size: 100% 100%;
+  filter: brightness(100%);
+}
+
+#ink_feather {
+  position: absolute;
+  background-image: url('../Resources/index_ink_and_feather.png');
+  background-repeat: no-repeat;
+  top: 30%;
+  right: 10%;
+  width: 350px;
+  height: 350px;
+  background-size: 100% 100%;
+}
+
+
+.center {
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  min-height: 600px;
+  max-width: 1000px;
+  z-index: 1;
+}
